@@ -1,0 +1,10 @@
+{
+  "name": "jstest",
+  "version": "0.0.1",
+  "dependencies": {
+    "mocha": "~1.16.2",
+    "chai": "~1.8.1",
+    "sinonjs": "~1.7.3"
+  },
+  "devDependencies": {}
+}
