@@ -1,4 +1,4 @@
 jstest
 ======
 
-Betabbers JS test
+Betabeers JS test
