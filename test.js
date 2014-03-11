@@ -28,7 +28,6 @@
             // expect(result).to.be.equal('number');
             expect(function() {
             	typeof g()
-            // }).to.throw('g is not defined');
             }).to.throw(Error);
             // expect(result).to.be.equal(undefined);
             // expect(result).to.be.equal('function');
@@ -45,7 +44,7 @@
             // expect(result).to.be.equal(null);
             // expect(result).to.be.equal(undefined);
             expect(result).to.be.equal(1);
-            // expect(result).to.be.equal('error');
+            // expect(result).to.throw(Error);
 
         });
 
@@ -71,7 +70,7 @@
             // expect(result).to.be.equal(undefined);
             // expect(result).to.be.equal('function');
             expect(result).to.be.equal('number');
-            // expect(result).to.be.equal('error');
+            // expect(result).to.throw(Error);
 
         });
 
@@ -144,7 +143,7 @@
             // expect(result).to.be.equal('object');
             // expect(result).to.be.equal('number');
             expect(result).to.be.equal('undefined');
-            // expect(result).to.be.equal('error');
+            // expect(result).to.throw(Error);
 
         });
 
@@ -158,7 +157,7 @@
             })();
 
             // expect(result).to.be.equal(1);
-            // expect(result).to.be.equal('error');
+            // expect(result).to.throw(Error);
             expect(result).to.be.equal(2);
             // expect(result).to.be.equal(undefined);
 
@@ -181,7 +180,7 @@
 
             // expect(result).to.be.equal(1);
             // expect(result).to.be.equal(undefined);
-            // expect(result).to.be.equal('error');
+            // expect(result).to.throw(Error);
             // expect(result).to.be.equal(2);
 
         });
